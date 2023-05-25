@@ -1,0 +1,54 @@
+a {
+	text-decoration: none;
+}
+
+#nav,
+#banner {
+	background-color: #1c1e53 !important;
+}
+#project {
+	background-color: #f4f6fc;
+}
+#client {
+	background-color: rgba(244, 246, 252, 0.5);
+}
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: transparent !important;
+}
+.accordion-button:focus {
+    border-color: none !important;
+    box-shadow: none !important;
+}
+.accordion-body{
+    margin-left: 73px;
+}
+
+
+/* ========= For Form ======== */
+.form-control {
+    padding: 15px 30px;
+    border-radius: 8px;
+    background-color: #89252500;
+    color: #adb7c0;
+}
+.border {
+    border: none !important;
+}
+.inquiry_form{
+    background-color: #1C1E53;
+    height: 691px;
+}
+.form-control:focus {
+    color: #adb7c0;
+    background-color: transparent;
+    border-color: #fefcfa;
+    outline: 0;
+    /* box-shadow: 0 0 0 0.25rem rgb(230 232 236 / 0%); */
+}
+.startup{
+    height: 691px;
+    background-image: url(./images/startup.png);
+    background-position: center;
+    background-size: cover;
+}
